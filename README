@@ -1,1 +1,3 @@
 nexus s 手机 wifi 有问题，会间断性出现暴走，占大量cpu，然后耗电关机。写个apk，关闭屏幕的时候自动关闭wifi，开机启动启动。
+
+需要scala 2.10 m2，treeshaker
