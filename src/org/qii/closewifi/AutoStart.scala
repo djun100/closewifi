@@ -8,7 +8,9 @@ class AutoStart extends BroadcastReceiver {
 
   override def onReceive(context: Context, intent: Intent) = {
 
-    context.startActivity(new Intent(context.getApplicationContext(), classOf[Main]))
+    var i = new Intent(context.getApplicationContext(), classOf[Main])
+    i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+    context.startActivity(i)
 
   }
 
