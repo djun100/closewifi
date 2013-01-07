@@ -22,7 +22,7 @@ class BackgroundService extends Service {
     startNotification
     return Service.START_STICKY
   }
-
+    //s
   def startBroadcastReceivers = {
 
     var closewifi = new Closewifi()
